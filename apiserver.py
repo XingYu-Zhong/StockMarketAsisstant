@@ -10,9 +10,18 @@ from waitress import serve
 import pandas as pd
 import akshare as ak
 app = Flask(__name__)
+import tushare as ts
+ts.set_token('a2e1ab70a848cexxxxxx18dd1994edbe7f35bc1c8af')
 
 # CORS(app, allow_origin="https://chat.openai.com")
 CORS(app, resources={r"*": {"origins": "*"}})
+
+
+#设置代理
+import os
+os.environ['http_proxy'] = 'http://127.0.0.1:10809'
+os.environ['https_proxy'] = 'http://127.0.0.1:10809'
+
 
 @app.get('/.well-known/ai-plugin.json')
 def serve_ai_plugin():
@@ -346,8 +355,6 @@ def _find_zh_stock_basic(text):
     if os.path.exists(file_path):
         zh_stock_basic_data = pd.read_csv(file_path, dtype=str)
     else:
-        import tushare as ts
-        ts.set_token('a2e1ab70a8xxxxxxxxxxxxdbe7f35bc1c8af')
         pro = ts.pro_api()
         zh_stock_basic_data = pro.stock_basic(exchange='', list_status='L',
                                               fields='symbol,name,area,industry,fullname,enname,cnspell,market,exchange,list_status,list_date,delist_date')

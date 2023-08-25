@@ -15,6 +15,14 @@ https://github.com/XingYu-Zhong/StockMarketAsisstant/assets/42194301/827ab62e-20
 
 使用其他语言阅读: [English](README.md), [中文](README_ZH.md).
 
+如果开了科学上网记得设置代理
+```python
+#设置代理
+import os
+os.environ['http_proxy'] = 'http://127.0.0.1:10809'
+os.environ['https_proxy'] = 'http://127.0.0.1:10809'
+```
+
 使用Python在5分钟内启动并运行股市助手 ChatGPT 插件🐍。如果你还没有插件开发者权限，请[加入等待名单](https://openai.com/waitlist/plugins) 📜。
 
 简介: 本插件用于访问股票相关数据📊，你可以访问中国股票历史数据、新闻数据、绩效数据、机构调用的数据等。
