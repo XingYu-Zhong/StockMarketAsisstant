@@ -12,7 +12,8 @@ https://github.com/XingYu-Zhong/StockMarketAsisstant/assets/42194301/0005ad33-98
 https://github.com/XingYu-Zhong/StockMarketAsisstant/assets/42194301/827ab62e-2096-43a7-ba9c-eb1f2d087891
 
 </div>
-*使用其他语言阅读: [English](README.md), [中文](README_ZH.md).*
+
+使用其他语言阅读: [English](README.md), [中文](README_ZH.md).
 
 使用Python在5分钟内启动并运行股市助手 ChatGPT 插件🐍。如果你还没有插件开发者权限，请[加入等待名单](https://openai.com/waitlist/plugins) 📜。
 
