@@ -4,13 +4,13 @@ show video
 
 <div align="center">
 
-https://github.com/XingYu-Zhong/StockMarketAsisstant/img/贵州茅台的基本信息
+https://github.com/XingYu-Zhong/StockMarketAsisstant/img/贵州茅台的基本信息.mp4
 
 </div>
 
 <div align="center">
 
-https://github.com/XingYu-Zhong/StockMarketAsisstant/img/今年一月中国宏观数据
+https://github.com/XingYu-Zhong/StockMarketAsisstant/img/今年一月中国宏观数据.mp4
 
 </div>
 
