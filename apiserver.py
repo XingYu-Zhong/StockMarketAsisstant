@@ -17,10 +17,10 @@ ts.set_token('a2e1ab70a848cexxxxxx18dd1994edbe7f35bc1c8af')
 CORS(app, resources={r"*": {"origins": "*"}})
 
 
-#设置代理
-import os
-os.environ['http_proxy'] = 'http://127.0.0.1:10809'
-os.environ['https_proxy'] = 'http://127.0.0.1:10809'
+# #设置代理
+# import os
+# os.environ['http_proxy'] = 'http://127.0.0.1:10809'
+# os.environ['https_proxy'] = 'http://127.0.0.1:10809'
 
 
 @app.get('/.well-known/ai-plugin.json')
