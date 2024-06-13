@@ -33,6 +33,10 @@ def serve_ai_plugin():
 def serve_openapi_yaml():
     return send_from_directory('.', 'openapi.yaml', mimetype='text/yaml')
 
+@app.get('/openapi2.yaml')
+def serve_openapi2_yaml():
+    return send_from_directory('.', 'openapi2.yaml', mimetype='text/yaml')
+
 @app.get('/logo.png')
 def serve_logo_png():
     return send_from_directory('.', 'logo.png', mimetype='image/png')
